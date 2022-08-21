@@ -5,57 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
     <title>Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="main-menu">
-      <h3>
-        <a href="index.html"><span>WebStudio</span></a>
-      </h3>
-      <nav>
-        <ul>
-          <li><a href="index.html">Agencja</a></li>
-          <li><a href="index.html">Portfolio</a></li>
-          <li><a href="index.html">Kontakt</a></li>
+    <section class="main-menu">
+      <header>
+        <h3 class="logo">
+          <a href="index.html"
+            ><span class="logo-color">Web</span
+            ><span class="logo-color-2">Studio</span></a
+          >
+        </h3>
+        <nav cass="menu-link">
+          <ul>
+            <li class="menu-link-item">
+              <a class="link" href="index.html"
+                ><span class="text-link">Agencja</span></a
+              >
+            </li>
+            <li class="menu-link-item">
+              <a class="link" href="index.html"
+                ><span class="text-link">Portfolio</span></a
+              >
+            </li>
+            <li class="menu-link-item">
+              <a class="link" href="index.html"
+                ><span class="text-link">Kontakt</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li>
+            <a class="link" href="mailto:info@example.com"
+              ><span class="text-contact">info@example.com</span></a
+            >
+          </li>
+          <li>
+            <a class="link" href="+48 111 111 111"
+              ><span class="text-contact">+48 111 111 111</span></a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="+48 111 111 111">+48 111 111 111</a></li>
-      </ul>
-    </header>
+      </header>
+    </section>
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+      <section class="main-block">
+        <h1 class="main-headline">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
       </section>
-      <section>
+      <button type="button" class="button-block">
+        <span class="text-button">Zamów usługe</span>
+      </button>
+
+      <section class="description">
         <ul>
-          <li>
-            <h5>LOREM IPSUM</h5>
+          <li class="description-list">
+            <h5 class="secondary-headline">LOREM IPSUM</h5>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
-          <li>
-            <h5>LOREM IPSUM</h5>
+          <li class="description-list">
+            <h5 class="secondary-headline">LOREM IPSUM</h5>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
-          <li>
-            <h5>LOREM IPSUM</h5>
+          <li class="description-list">
+            <h5 class="secondary-headline">LOREM IPSUM</h5>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
-          <li>
-            <h5>LOREM IPSUM</h5>
+          <li class="description-list">
+            <h5 class="secondary-headline">LOREM IPSUM</h5>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Czym się zajmujemy</h2>
+      <section class="pictures">
+        <h2 class="main-headline-2">Czym się zajmujemy</h2>
         <ul>
-          <li>
+          <li class="picture-list">
             <img
               src="images/photo1.jpg"
               alt="Pracujący programista przy biurku"
@@ -63,7 +103,7 @@
               height="294px"
             />
           </li>
-          <li>
+          <li class="picture-list">
             <img
               src="images/photo2.jpg"
               alt="Designer opracowujący aplikację na smartfona"
@@ -71,7 +111,7 @@
               height="294px"
             />
           </li>
-          <li>
+          <li class="picture-list">
             <img
               src="images/photo3.jpg"
               alt="Projektowanie z wyborem koloru"
@@ -81,10 +121,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
+      <section class="second-block">
+        <h2 class="main-headline-2">Nasz zespół</h2>
         <ul>
-          <li>
+          <li claass="second-picture-list">
             <figure>
               <img
                 src="images/photo1.1.jpg"
@@ -93,12 +133,12 @@
                 height="270px"
               />
               <figcaption>
-                <p><strong>John Doe Product</strong></p>
-                <p>Designer</p>
+                <p class="name"><span>John Doe Product</span></p>
+                <p class="second-description">Designer</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li claass="second-picture-list">
             <figure>
               <img
                 src="images/photo1.2.jpg"
@@ -107,12 +147,12 @@
                 height="270px"
               />
               <figcaption>
-                <p><strong>John Doe</strong></p>
-                <p>Frontend Developer</p>
+                <p class="name"><span>John Doe</span></p>
+                <p class="second-description">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li claass="second-picture-list">
             <figure>
               <img
                 src="images/photo1.3.jpg"
@@ -121,12 +161,12 @@
                 height="270px"
               />
               <figcaption>
-                <p><strong>John Doe</strong></p>
-                <p>Marketing</p>
+                <p class="name"><span>John Doe</span></p>
+                <p class="second-description">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li claass="second-picture-list">
             <figure>
               <img
                 src="images/photo1.4.jpg"
@@ -135,8 +175,8 @@
                 height="270px"
               />
               <figcaption>
-                <p><strong>John Doe</strong></p>
-                <p>UI Designer</p>
+                <p class="name"><span>John Doe</span></p>
+                <p class="second-description">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -144,13 +184,29 @@
       </section>
     </main>
     <footer>
-      <h3><a href="index.html">WebStudio</a></h3>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <br />
-        <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
-      </ul>
+      <section class="footer-block">
+        <h3 class="logo">
+          <a href="index.html"
+            ><span class="logo-color">Web</span
+            ><span class="logo-color-3">Studio</span></a
+          >
+        </h3>
+        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+        <ul >
+          <ul class="contact">
+          <li>
+            <a class="link" href="mailto:info@example.com"
+              ><span class="contact-text">info@example.com</span></a
+            >
+          </li>
+          <br />
+          <li>
+            <a  class="link" href="tel:+48 111 111 111"
+              ><span class="contact-text">+48 111 111 111</span></a
+            >
+          </li>
+        </ul>
+      </section>
     </footer>
   </body>
 </html>
